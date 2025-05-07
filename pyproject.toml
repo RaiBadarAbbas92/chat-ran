@@ -1,0 +1,18 @@
+[project]
+name = "chatbot-ran"
+version = "0.1.0"
+description = "RAG-based chatbot using Google Gemini, FastAPI, and FAISS vector store"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn>=0.29.0",
+    "langchain>=0.3.24",
+    "langchain-community>=0.3.23",
+    "faiss-cpu>=1.7.4",
+    "pypdf>=4.0.0",
+    "python-multipart>=0.0.9",
+    "python-dotenv>=1.0.0",
+    "google-generativeai>=0.8.0",
+    "langchain-google-genai>=0.0.5",
+]
